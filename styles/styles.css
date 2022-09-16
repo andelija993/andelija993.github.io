@@ -1,0 +1,595 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    padding: 15px;
+}
+
+#introduction {
+    background-color: #788f57;
+    color: #fefffe;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.name {
+    text-align: center;
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 8px;
+}
+
+.role {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.section {
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+
+.section-name {
+    text-transform: uppercase;
+    font-family: 'Pressroom';
+    font-weight: 1700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.wrap {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#left-container,#right-container {
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    width: 45%;
+}
+
+#left-container {
+    text-align: right;
+}
+
+#right-container {
+    text-align: left;
+}
+
+/*Progress bar*/
+progress {
+    height: 11px;
+    margin-bottom: 10px;
+    width: 25%;
+    background-color: #788f57;
+}
+progress::-webkit-progress-bar {
+    background-color: #cfcdce;
+}
+progress::-webkit-progress-value {
+    background-color: #788f57 !important;
+}
+progress {
+    background-color: #cfcdce;
+}
+
+ul {
+    padding-bottom: 25px;
+    line-height: 30px;
+    list-style-type: square;
+}
+
+.center {
+    width: 10%;
+    position: relative;
+    width: 50px;
+}
+
+.one {
+    float: left;
+    padding: 20px;
+}
+
+.line {
+    position: relative;
+    border-left: 3px solid #cfcdce;
+    height: 1200px;
+    width: 10%;
+    margin-top: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Circles and lines*/
+.hr-circle-wrap {
+    position: absolute;
+    width: 40px;
+}
+
+.circle {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #788f57;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#summary-contact-circle {
+    bottom: 1183px;
+    left: 15px;
+}
+
+#summary-contact-line {
+    right: -30px;
+    bottom: 1180px;
+    width: 97px;
+}
+
+#education-circle {
+    bottom: 788px;
+    left: 15px;
+}
+
+#education-line {
+    right: 12px;
+    bottom: 785px;
+}
+
+#professional-experience-circle {
+    bottom: 880px;
+    left: 15px;
+}
+
+#professional-experience-line {
+    right: -30px;
+    bottom: 877px;
+}
+
+#certification-circle {
+    bottom: 130px;
+    left: 15px;
+}
+
+#certification-line {
+    right: 12px;
+    bottom: 128px;
+}
+
+#relevant-skills-circle {
+    bottom: 498px;
+    left: 15px;
+}
+
+#relevant-skills-line {
+    right: 12px;
+    bottom: 495px;
+}
+
+hr {
+    position: absolute;
+    border-top: 2px solid #d1d8c9ce;
+    width: 55px;
+    right: 10px;
+    bottom: 1180px;
+}
+
+/*ALL screen print */
+/* nesto ne radi*/
+@media screen and (min-width: 1521px) {
+    #education-circle {
+        bottom: 822px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 820px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 530px;
+    }
+    #relevant-skills-circle {
+        bottom: 532px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 163px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 160px;
+    }
+}
+@media screen and (min-width: 1762px) {
+    #education-circle {
+        bottom: 859px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 855px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 565px;
+    }
+    #relevant-skills-circle {
+        bottom: 568px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 198px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 195px;
+    }
+}
+@media screen and (min-width: 1780px) {
+    #education-circle {
+        bottom: 859px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 855px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 565px;
+    }
+    #relevant-skills-circle {
+        bottom: 568px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 198px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 195px;
+    }
+}
+@media screen and (min-width: 1935px) {
+    #education-circle {
+        bottom: 895px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 892px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 599px;
+    }
+    #relevant-skills-circle {
+        bottom: 602px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 233px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 230px;
+    }
+}
+@media screen and (min-width: 2831px) {
+    #education-circle {
+        bottom: 928px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 925px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 633px;
+    }
+    #relevant-skills-circle {
+        bottom: 636px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 273px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 270px;
+    }
+}
+@media screen and (min-width: 5390px) {
+    #education-circle {
+        bottom: 963px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 960px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 673px;
+    }
+    #relevant-skills-circle {
+        bottom: 675px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 300px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 295px;
+    }
+}
+@media screen and (min-width: 1520px) and (max-width:1534px) {
+    #education-circle {
+        bottom: 790px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 789px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 500px;
+    }
+    #relevant-skills-circle {
+        bottom: 502px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 131px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 129px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    #education-circle {
+        bottom: 750px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 748px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 460px;
+    }
+    #relevant-skills-circle {
+        bottom: 462px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 93px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 91px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    #education-circle {
+        bottom: 720px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 718px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 425px;
+    }
+    #relevant-skills-circle {
+        bottom: 428px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 58px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 56px;
+    }
+}
+@media screen and (max-width: 1010px) {
+    #professional-experience-circle {
+        bottom: 1040px;
+        left: 15px;
+    }
+    #professional-experience-line {
+        right: -30px;
+        bottom: 1037px;
+    }
+    #summary-contact-circle {
+        bottom: 1383px;
+        left: 15px;
+    }
+    #summary-contact-line {
+        right: -30px;
+        bottom: 1380px;
+        width: 97px;
+    }
+    #education-circle {
+        bottom: 880px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 878px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 555px;
+    }
+    #relevant-skills-circle {
+        bottom: 558px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 150px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 146px;
+    }
+.line {
+    height: 1400px;
+}
+}
+@media screen and (max-width: 965px) {
+    #education-circle {
+        bottom: 850px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 846px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 490px;
+    }
+    #relevant-skills-circle {
+        bottom: 492px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 87px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 83px;
+    }
+}
+@media screen and (max-width: 855px) {
+    #summary-contact-circle {
+        bottom: 1583px;
+        left: 15px;
+    }
+    #summary-contact-line {
+        right: -30px;
+        bottom: 1580px;
+        width: 97px;
+    }
+    #professional-experience-circle {
+        bottom: 1200px;
+        left: 15px;
+    }
+    #professional-experience-line {
+        right: -30px;
+        bottom: 1198px;
+    }
+    #education-circle {
+        bottom: 1015px;
+        left: 15px;
+    }
+    #education-line {
+        right: 12px;
+        bottom: 1012px;
+    }
+    #relevant-skills-line {
+        right: 12px;
+        bottom: 608px;
+    }
+    #relevant-skills-circle {
+        bottom: 612px;
+        left: 15px;
+    }
+    #certification-circle {
+        bottom: 138px;
+        left: 15px;
+    }
+    
+    #certification-line {
+        right: 12px;
+        bottom: 135px;
+    }
+    .line {
+        height: 1600px;
+    }
+}
+@media screen and (max-width:845px) {
+    #center{
+        display: none;
+    }
+    .wrap {
+        flex-direction: column;
+        
+    }
+    #left-container, #right-container {
+        width: 100%;
+        text-align: left;
+    }
+    /*Gore html dole da razvucem progres bar i pored da bude broj posto, npr 90 10 ili nesto bolje*/
+  .skill{
+    display: block;
+    width: 100%;
+  }
+    progress {
+    width: 90%;
+  }
+  .percentage {
+    width: 10%;
+  }
+}
+@media screen and (max-width:649px) {
+   
+    /*Gore html dole da razvucem progres bar i pored da bude broj posto, npr 90 10 ili nesto bolje*/
+    progress {
+    width: 80%;
+  }
+  .percentage {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width:375px) {
+   
+    progress {
+    width: 70%;
+  }
+
+}
+@media screen and (max-width: 750px) {
+    #introduction {
+        width: 100%;
+    }
+}
